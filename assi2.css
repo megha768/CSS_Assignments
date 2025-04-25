@@ -1,0 +1,133 @@
+.main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url("./rest2_img.png");
+    background-size: cover;
+    background-position: center;
+}
+.sub1{
+    margin:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    
+}
+.sub2 {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sub3 {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sub1_1 {
+/*    border: 2px solid red;*/
+    border-radius: 15px;
+    height: stretch;
+    line-height: 50px;
+    padding: 20px;
+    text-align:center;
+}
+.sub1_text {
+    color:red;
+    font-size: xx-large;
+    font-style:italic;
+}
+.sub1_text2 {
+    border:2px solid brown;
+    background-color:beige;
+    color:firebrick;
+    font-size: x-large;
+}
+.navc{
+    font-size:x-large;
+    align-self:end;
+    background-color:antiquewhite;
+}
+a{
+    text-decoration:none;
+    color:cadetblue;
+    padding:10px;
+}
+h1,h2{
+    text-align:center;
+    color:forestgreen;
+}
+.sub2_1{
+/*    border:2px solid red;*/
+    background-color:yellow;
+    color:red;
+    border-radius:50%;
+    padding:40px;
+    text-align:center;
+    font-size:x-large;
+    line-height:60px;
+    height:200px;
+    width:contain;
+    align-self:center;
+}
+.sub2_2{
+/*    border:2px solid red;*/
+    background-color:aliceblue;
+    border-radius:15px;
+    padding:50px;
+    height:stretch;
+    width:400px;
+    line-height:50px;
+}
+.sub3_1 {
+    background-color:azure;
+    margin:10px 60px;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: stretch;
+    width:200px;
+    padding: 20px;
+}
+li::marker{
+    color:red;
+}
+li{
+    text-align:left;
+    line-height:30px;
+    color:darkred;
+    font-size:large;
+}
+.buttonc{
+    margin:30px 20px;
+    padding:10px;
+    font-size:medium;
+    font-weight:bold;
+    border-radius:10px;
+    border:none;
+    background-color:gray;
+    color:burlywood;
+}
+.reg{
+    font-size:xx-large;
+    color:green;
+}
+.labelc {
+    font-size: larger;
+    text-align: left;
+    color:crimson;
+}
+.textbox{
+    height:20px;
+    margin:0px 15px;
+    color:forestgreen;
+}
+.check{
+    margin:0px 15px;
+}
+.menu{
+    text-decoration:underline;
+    background-color:burlywood;
+}
