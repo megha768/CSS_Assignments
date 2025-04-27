@@ -1,0 +1,176 @@
+.main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: lightpink;
+    background-image: linear-gradient(mediumpurple,lightpink,white);
+}
+.sub1{
+    margin:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.sub2 {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sub3 {
+    margin:20px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+/*    border:2px solid red;*/
+    align-self:center; 
+    justify-content:center;
+    background-color:pink;
+}
+.sub4{
+    margin:20px;
+    display:flex;
+    justify-content:center;
+}
+.box1 {
+    margin: 20px;
+/*    border: 2px solid red;*/
+    height: contain;
+    width: max-content;
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+    line-height: 50px;
+    text-shadow:5px 5px 20px white;
+}
+h1{
+    color:purple;
+}
+h2{
+    color:white;
+}
+.box2 {
+    margin: 20px;
+    /*    border: 2px solid red;*/
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+    align-self: flex-start;
+    height: 200px;
+    width: 200px;
+    font-size: large;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px 10px white;
+    color:papayawhip;
+}
+.box3 {
+    margin: 20px;
+    /*    border: 2px solid red;*/
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+    align-self: flex-end;
+    height: 200px;
+    width: 200px;
+    font-size: large;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px 10px white;
+    color: papayawhip;
+}
+.box4 {
+    margin: 20px;
+    /*    border: 2px solid red;*/
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+    align-self: flex-start;
+    height: 200px;
+    width: 200px;
+    font-size: large;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px 10px white;
+    color: papayawhip;
+}
+.box5 {
+    margin: 20px;
+    /*    border: 2px solid red;*/
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+    align-self: flex-end;
+    height: 200px;
+    width: 200px;
+    font-size: large;
+    line-height: 40px;
+    box-shadow: 0px 0px 10px 10px white;
+    color: papayawhip;
+}
+.button{
+    border-radius:5px;
+    background-color:white;
+    border:none;
+    color:purple;
+}
+.textbox{
+    color:purple;
+}
+.box6 {
+    margin: 20px;
+/*    border: 2px solid red;*/
+    width: max-content;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    align-self: center;
+    font-size: large;
+    line-height: 30px;
+    position:fixed;
+    bottom:20px;
+    background-color:mediumorchid;
+    border-bottom-left-radius:20px;
+    border-top-right-radius:20px;
+    color:wheat;
+    box-shadow:5px 5px 2px 2px white;
+}
+.fruit {
+    margin: 10px;
+    padding: 10px;
+    /*    border: 2px solid red;*/
+    text-align: center;
+    height: fit-content;
+    width: 300px;
+    font-size: large;
+    line-height: 30px;
+    background-color: lightpink;
+    color:purple;
+}
+.vegie {
+    margin: 10px;
+    padding: 10px;
+/*    border: 2px solid red;*/
+    text-align: center;
+    height: fit-content;
+    width: 300px;
+    font-size: large;
+    line-height: 30px;
+    background-color:lightpink;
+    color: purple;
+}
+.other {
+    margin: 10px;
+    padding: 10px;
+/*    border: 2px solid red;*/
+    text-align: center;
+    width: 650px;
+    height: fit-content;
+    font-size: large;
+    line-height: 30px;
+    align-self: center;
+    background-color:lightpink;
+    color: purple;
+}
+h3 {
+    color:crimson;
+}
